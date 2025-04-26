@@ -30,7 +30,7 @@ local syde = {
 	Connections = {};
 	Comms = Instance.new('BindableEvent');
 	ParentOverride = nil;
-	Build = 'SY2'
+	Build = 'Lunar'
 }
 
 
@@ -749,7 +749,7 @@ local TABS = WINDOW.Tab.ScrollingFrame
 local PAGES = WINDOW.Pages
 local settingsOpen = false
 local UIClosed = false
-local UIToggle = Enum.KeyCode.RightShift
+local UIToggle = Enum.KeyCode.End
 UI.Parent = coregui
 
 function CloseUI()
