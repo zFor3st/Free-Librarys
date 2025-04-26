@@ -469,7 +469,7 @@ end
 do
 
 	function syde:Load(Config)
-		print('[SYED] Loader Loaded')
+		
 		local LOADER = Loader
 		LOADER.Enabled = true
 		LOADER.Parent = coregui
@@ -1858,8 +1858,7 @@ do
 				Holding = false
 			}
 
-			print('made keybind')
-
+		
 			local KeyBind = Library.Settings.KeyBind:Clone()
 			KeyBind.Visible = true
 			KeyBind.Parent = Parent
@@ -4177,6 +4176,5 @@ function syde:Init(library)
 end
 
 return syde
-
 
 
