@@ -1,7 +1,5 @@
 
 
-print('bug fix 2')
-
 local inputservice =	game:GetService("InsertService")
 local tweenservice = 	game:GetService("TweenService")
 local https = 			game:GetService("HttpService")
