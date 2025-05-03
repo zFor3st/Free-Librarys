@@ -1,4 +1,4 @@
-local Airflow = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/4lpaca-pin/Airflow/refs/heads/main/src/source.luau"))();
+local Airflow = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/zFor3st/Free-Librarys/refs/heads/main/Airflow/Source.lua"))();
 
 local keybnd = Airflow:DrawList({
 	Name = "keybinds",
